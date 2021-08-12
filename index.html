@@ -74,17 +74,20 @@
       document.getElementById('player').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma.mp4";
       document.getElementById('my-video').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma.mp4";
     }
-    if (m == "tuo") {
+    else if (m == "tuo") {
       document.getElementById('player').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma2.mp4";
       document.getElementById('my-video').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma2.mp4";
     }
-    if (m == "tutuo") {
+    else if (m == "tutuo") {
       document.getElementById('player').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma3.mp4";
       document.getElementById('my-video').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/taoma3.mp4";
     }
-    if (m == "jia") {
+    else if (m == "jia") {
       document.getElementById('player').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/jia.mp4";
       document.getElementById('my-video').src = "https://file.wmza.cn/one/sharedrive/杂七杂八/jia.mp4";
+    }
+    else{
+      window.location.href = "?m=tu"
     }
     function taoma1() {
       //tuya
